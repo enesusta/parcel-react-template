@@ -1,2 +1,1 @@
-This project was bootstrapped with [Parcel React Template]().
-
+This project was bootstrapped with [Parcel React Template](https://github.com/enesusta/parcel-react-template).

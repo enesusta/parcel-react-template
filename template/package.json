@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "src/index.js",
   "scripts": {
-    "start": "parcel public/index.html --no-minify",
+    "start": "parcel public/index.html --open --port=3000",
     "build": "parcel build public/index.html"
   },
   "license": "MIT",
