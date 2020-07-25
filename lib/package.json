@@ -1,7 +1,7 @@
 {
   "name": "parcel-react-template",
   "version": "1.0.0",
-  "description": "Create React NPM Library with no build configuration.",
+  "description": "Create React Template with Parcel no build configuration.",
   "repository": {
     "type": "git",
     "url": "https://github.com/enesusta/parcel-react-template.git",
