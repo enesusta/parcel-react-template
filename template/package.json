@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "main": "public/index.html",
   "scripts": {
-    "copy": "rm -rf dist && mkdir dist && cp ../assets/pdf-open-parameters.pdf dist",
-    "start": "npm run copy && parcel",
-    "build": "npm run copy && parcel build"
+    "start": "parcel",
+    "build": "parcel build"
   },
   "license": "MIT",
   "dependencies": {
