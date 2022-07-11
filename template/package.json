@@ -1,20 +1,18 @@
 {
   "name": "my-lib",
   "version": "1.0.0",
-  "main": "src/index.js",
+  "main": "public/index.html",
   "scripts": {
-    "start": "parcel public/index.html --open --port=3000",
-    "build": "parcel build public/index.html"
+    "copy": "rm -rf dist && mkdir dist && cp ../assets/pdf-open-parameters.pdf dist",
+    "start": "npm run copy && parcel",
+    "build": "npm run copy && parcel build"
   },
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0"
+  },
   "devDependencies": {
-    "@babel/core": "7.10.4",
-    "@babel/preset-env": "^7.10.4",
-    "@babel/preset-react": "^7.10.4",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-router-dom": "^5.2.0",
-    "parcel-bundler": "^1.12.4"
+    "parcel": "^2.2.0"
   }
 }
