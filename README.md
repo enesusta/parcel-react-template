@@ -42,8 +42,7 @@ cd my-awesome-app && npm start # ( or yarn start both are valid. )
 
 <div align="center">
 
-
-<img src=https://raw.githubusercontent.com/enesusta/assets-host-for-github-pages/assets/parcel-react-template/prt-1.gif />
+<img src="./assets/readme.gif">
 
 Your bootsrapped app is ready on http://localhost:3000
 
